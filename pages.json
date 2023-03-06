@@ -1,0 +1,78 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/barrage/barrage",
+			"style": {
+				"navigationBarTitleText": "弹幕"
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"navigationBarTitleText": "发帖"
+			}
+		},
+		{
+			"path": "pages/article/articleDetail",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		},
+		{
+			"path": "pages/userDetail/userDetail",
+			"style": {
+				"navigationBarTitleText": "查看用户"
+			}
+		},
+		{
+			"path": "pages/my/myArticle",
+			"style": {
+				"navigationBarTitleText": "我的帖子",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#4c6a88",
+		"backgroundColor": "#F8F8F8",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/images/home.png",
+				"selectedIconPath": "./static/images/home-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/images/my.png",
+				"selectedIconPath": "./static/images/my-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#000000"
+	}
+}
